@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}    
+
+body {
+    background-color: #FAF7FD;
+    height: 100%;
+}
+
+body * {
+    font-family: 'Poppins', sans-serif;
+    color: #BB99DD;
+    line-height: 160%;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    height: 100%;
+    padding: 40px;
+    margin: 32px auto;
+    gap: 32px;
+    width: 30%;
+}
+
+img {
+    padding: 4px;
+}
+
+header {
+    padding-top: 32px;
+    height: calc(120px + 30px);
+}
+
+header div {
+    width: 180px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+}
+
+header div img {  
+    border-radius: 50%;
+    width: 100%;
+    border: 2px solid #BB99DD;
+}  
+
+a {
+    text-decoration: none; 
+}
+
+i {
+    font-size: 24px;
+}
+
+
+.socials {
+    padding: 32px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links {
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-border {
+    padding: 28px;
+    border-radius: 4px;
+    border: 2px solid #BB99DD;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.insta {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper {
+    padding-top: 100px;
+} 
